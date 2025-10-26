@@ -132,7 +132,7 @@ p{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding-block-end: 1rem;
+    padding-block-end: 4rem;
 }
 .social-icon{
     fill: var(--cl-neutral-grey-50);
@@ -340,6 +340,9 @@ p{
     color: var(--cl-primary-white);
     padding: 0.8rem 1.5rem;
 }
+.more_info-btn,.card-button,.tab-button{
+    border: 2px solid var(--cl-primary-blue-600);
+    }
 .contact-wrapper{
     background-color: var(--cl-primary-blue-600);
     padding: 3.5rem 1.5rem;
@@ -457,14 +460,21 @@ p{
     fill: var(--cl-primary-white);
 }
 .attribution { 
-    font-size: 0.625rem; 
+    font-size: 0.5rem; 
     text-align: center; 
     padding-inline: 4rem;
-    color: var(--cl-primary-red-400); 
+    color: var(--cl-primary-white);
+    text-transform: uppercase;
 }
 .attribution a { 
-    color: var(--cl-primary-white);
+    color: var(--cl-primary-red-400); 
 }
+
+/* Remove mobile tap color  */
+a:active{
+    -webkit-tap-highlight-color: transparent;
+}
+
 /* Prefers-reduced-motion: reduce */
 @media (prefers-reduced-motion: reduce) {
     html{

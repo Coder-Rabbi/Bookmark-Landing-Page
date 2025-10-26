@@ -188,9 +188,6 @@
     .question{
         cursor: pointer;
     }
-    .more_info-btn,.card-button,.tab-button{
-        border: 2px solid var(--cl-primary-blue-600);
-     }
     .email-form{
         display: flex;
         align-items: flex-start;
