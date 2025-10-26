@@ -1,0 +1,367 @@
+@media screen and (min-width: 23.438rem) {
+    .tabs-bg{
+        height: 55%;
+    }
+    .extension-card{
+        height: 25rem;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 26.563rem) {
+    .navbar,.intro,.tab-wrapper,
+    .extension-wrapper,.faq-wrapper,
+    .contact-wrapper,.navbar_links-wrapper{
+        padding-inline: 2.5rem;
+    }
+    .intro_hero-bg{
+        right: -2.5rem;
+    }
+    .intro-info{
+        padding-inline: 0;
+    }
+    .tabs-bg{
+        height: 60%;
+        left: -2.5rem;
+    }
+    .extension_card-wrapper{
+        align-items: center;
+    }
+    .extension-card{
+        width: 18.75rem;
+        height: 23.75rem;
+        padding: 2rem;
+    }
+    .card-button{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 28.125rem){
+    .tabs-bg{
+        height: 65%;
+    }
+}
+
+@media screen and (min-width: 33.125rem){
+    .tabs-bg{
+        height: 70%;
+    }
+    .tab-img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 37.5rem) {
+    .tabs-bg{
+        height: 75%;
+    } 
+}
+
+@media screen and (min-width: 48rem) {
+    .ds-hidden{
+        display: none;
+    }
+    .tab-button{
+        display: block;
+    }
+    .btn{
+        cursor: pointer;
+    }
+    .navbar{
+        justify-content: space-around;
+        padding-inline: 0;
+
+    }
+    .navbar_links-wrapper{
+        opacity: 1;
+        transform: translateY(0);
+        position: relative;
+        background-color: transparent;
+        height: auto;
+        width: auto;
+        pointer-events: auto;
+        padding: 0;
+    }
+    .navbar_links{
+        flex-direction: row;
+        padding-block-start: 0;
+    }
+    .navbar_links li{
+        border-top: none;
+    }
+    .navbar_links li:nth-child(3) {
+        border-bottom: none;
+    }
+    .navbar_links a{
+        color: var(--cl-neutral-blue-950);
+        padding-block: 0.625rem;
+    }
+    .login-btn{
+        margin-block-start: 0;
+        background-color: var(--cl-primary-red-400);
+        padding: 0.625rem 1.25rem;
+        cursor: pointer;
+        border: 2px solid var(--cl-primary-red-400);
+    }
+    .navbar_links a,.login-btn{
+        font-size: 0.875rem;
+    }
+    .intro-info{
+        order: 1;
+    }
+    .intro-hero{
+        order: 2;
+    }
+    .intro,.tab{
+        gap: 4rem;
+    }
+    .intro .info,.tabs .info{
+        text-align: left;
+    }
+    .intro_info-buttons{
+        justify-content: flex-start;
+        gap: 1rem;
+        height: 3.125rem;
+    }
+    .hero,.tab-img{
+        width: auto;
+    }
+    .intro,.tab,.footer_links,.links_list{
+        display: flex;
+        align-items: center;
+    }
+    .intro,.tab{
+        justify-content: space-between;
+    }
+    .tab-wrap-info,.extension_wrapper-info,
+    .faq-wrapper,.contact,.tabs_name-list{
+        width: 34.688rem;
+        margin: 0 auto;
+    }
+    .tab_wrap-desc,.extension_warp-desc,
+    .faq-desc{
+        padding-inline: 3rem;
+    }
+    .tabs_name-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        border-bottom: 2px solid var(--cl-tab-name-border);
+        padding-block: 1.2rem;
+        position: relative;
+        margin-block-end: 4rem;
+    }
+    .tabs_name-list .tab-name{
+        border: none;
+        cursor: pointer;
+    }
+    .tabs_name-list .tab-name:nth-child(1){
+        border-top: none;
+    }
+    .tab-name::before{
+        bottom: -1.2rem;
+    }
+    .intro-hero,.intro-info,
+    .tab-image,.tab-info{
+        flex-basis: 50%;
+    }
+    .tabs-bg{
+        width: 40%;
+        height: 100%;
+    }
+    .tab-button{
+        background-color: var(--cl-primary-blue-600);
+        color: var(--cl-primary-white);
+        margin-block-start: 1.5rem;
+    }
+    .extension_card-wrapper,.footer-content{
+        flex-direction: row;
+    }
+    .extension-card:nth-child(2){
+        margin-block-start: 4rem;
+    }
+    .extension-card:last-child{
+        margin-block-start: 8rem;
+    }
+    .question{
+        cursor: pointer;
+    }
+    .more_info-btn,.card-button,.tab-button{
+        border: 2px solid var(--cl-primary-blue-600);
+     }
+    .email-form{
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .email-wrapper{
+        flex-basis: 70%;
+    }
+    .submit-btn{
+        flex-basis: 30%;
+        margin-block-start: 0;
+        cursor: pointer;
+    }
+    .email,.submit-btn{
+        height: 2.813rem;
+    }
+    .footer-content{
+        justify-content: space-around;
+        padding-inline: 2.5rem;
+    }
+    .footer_links{
+        gap: 3rem;
+    }
+    .footer-bookmark{
+        margin-block-end: 0;
+    }
+    .links_list,.navbar_links,.footer_social-icon{
+        gap: 1.5rem;
+    }
+
+    /*All Hover  */
+    .navbar_links a,.footer_links a{
+        transition: color 0.3s ease;
+    }
+    .navbar_links a:hover,
+    .footer_links a:hover{
+        color: var(--cl-primary-red-400);
+    }
+    .chrome-btn,.firefox-btn,.login-btn,
+    .more_info-btn,.card-button,
+    .tab-button,.submit-btn{
+        transition: background-color 0.3s ease, 
+                    border-color 0.3s ease, 
+                    color 0.3s ease,
+                    transform 0.3s ease;
+    }
+    .login-btn:hover{
+        background-color: var(--cl-primary-white);
+        color: var(--cl-neutral-blue-950);
+        border-color: var(--cl-primary-red-400);
+    }
+    .chrome-btn:hover{
+        background-color: var(--cl-primary-white);
+        border-color: var(--cl-primary-blue-600);
+        color: var(--cl-primary-blue-600);
+    }
+    .firefox-btn:hover{
+        background-color: var(--cl-primary-white);
+        border-color: var(--cl-neutral-blue-950);
+        transform: scale(1.03);
+    }
+    .more_info-btn:hover,
+    .card-button:hover,
+    .tab-button:hover{
+        background-color: var(--cl-primary-white);
+        color: var(--cl-primary-blue-600);
+        border-color: var(--cl-primary-blue-600);
+    }
+    .footer-icon{
+        transition: fill 0.3s ease;
+        cursor: pointer;
+    }
+    .footer-icon:hover{
+        fill: var(--cl-primary-red-400);
+    }
+    .tab-name,.faq-question{
+        transition: color 0.3s ease;
+    }
+    .tab-name:hover,
+    .question:hover .faq-question{
+        color: var(--cl-primary-red-400);
+    }
+    .submit-btn:hover{
+        background-color: var(--cl-primary-white);
+        color: var(--cl-neutral-blue-950);
+        transform: scale(1.03);
+    }
+
+}
+@media screen and (min-width: 64rem) {
+    .navbar,.intro,.tab-wrapper,
+    .extension-wrapper,.faq-wrapper,
+    .contact,.footer-content{
+        max-width: 90rem;
+        margin: 0 auto;
+    }
+    .navbar,.footer-content{
+        justify-content: space-between;
+    }
+    .navbar{
+        padding-block-start: 3.5rem;
+        padding-inline: 5.5rem;
+    }
+    .intro{
+        overflow: hidden;
+    }
+    .intro-info{
+        padding-inline: 5rem;
+    }
+    .intro-desc{
+        padding-block-end: 1.5rem;
+    }
+    .intro_hero-bg{
+        right: -10rem;
+        width: 120%;
+        border-bottom-left-radius: 8rem;
+    }
+    .tabs-bg{
+        width: 60%;
+        left: -10rem;
+        height: 105%;
+    }
+    .desc{
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    .intro-title{
+        font-size: 2.5rem;
+    }
+    .second-title,.contact-title{
+        font-size: 1.875rem;
+    }
+    .contact-title{
+        padding-inline: 4rem;
+    }
+    .card-title{
+        font-size: 1.563rem;
+    }
+    .faq-question{
+        font-size: 1.25rem;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .tab-name{
+        font-size: 1.125rem;
+    }
+    .extension_card-wrapper{
+        justify-content: center;
+    }
+    .tab-wrapper,.footer-content{
+        padding-inline: 5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .intro_hero-bg{
+        right: -15rem;
+    }
+    .tabs-bg{
+        left: -15rem;
+
+    }    
+}
+
+@media screen and (min-width: 1440px) {
+    .intro{
+        min-width: 100%;
+    }
+    .tabs-bg{
+        left: -20rem;
+        height: 110%;
+    }
+}
