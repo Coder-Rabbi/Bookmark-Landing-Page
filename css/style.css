@@ -57,6 +57,10 @@ p{
 .ds-flex{
     display: flex;
 }
+.main-container{
+    max-width: 100%; 
+    overflow-x: hidden;
+}
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -132,7 +136,7 @@ p{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding-block-end: 4rem;
+    padding-block-end: 6rem;
 }
 .social-icon{
     fill: var(--cl-neutral-grey-50);
@@ -463,11 +467,13 @@ p{
     font-size: 0.5rem; 
     text-align: center; 
     padding-inline: 4rem;
-    color: var(--cl-primary-white);
     text-transform: uppercase;
+    color: var(--cl-primary-red-400); 
+
 }
 .attribution a { 
-    color: var(--cl-primary-red-400); 
+    color: var(--cl-primary-white);
+
 }
 
 /* Remove mobile tap color  */

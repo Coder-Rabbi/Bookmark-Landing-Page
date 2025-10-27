@@ -1,9 +1,6 @@
 const navbar = document.querySelector(".navbar");
 const navlinksToggle = document.querySelector(".navbar_toggle-btn");
 
-// function scrollOf (){
-
-
 navlinksToggle.addEventListener("click", () => {
     navbar.classList.toggle("active-navlinks");
     
@@ -21,7 +18,6 @@ window.addEventListener("resize", () => {
         document.body.classList.remove("scroll-of");           
     }
 })
-
 
 
 const tabNames = document.querySelectorAll(".tab-name");
@@ -62,9 +58,3 @@ emailForm.addEventListener("submit" , (e) => {
         e.preventDefault();
     }
 })
-
-
-
-
-
-

@@ -58,7 +58,7 @@
     } 
 }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 50rem) {
     .ds-hidden{
         display: none;
     }
@@ -71,7 +71,6 @@
     .navbar{
         justify-content: space-around;
         padding-inline: 0;
-
     }
     .navbar_links-wrapper{
         opacity: 1;
@@ -290,12 +289,13 @@
     .navbar{
         padding-block-start: 3.5rem;
         padding-inline: 5.5rem;
-    }
-    .intro{
-        overflow: hidden;
+        margin-block-end: 3rem;
     }
     .intro-info{
-        padding-inline: 5rem;
+        padding-inline-start: 3rem;
+    }
+    .intro-hero{
+        padding-inline-end: 1rem;
     }
     .intro-desc{
         padding-block-end: 1.5rem;
@@ -304,6 +304,10 @@
         right: -10rem;
         width: 120%;
         border-bottom-left-radius: 8rem;
+    }
+    .tab-wrapper,.extension-wrapper,
+    .faq-wrapper{
+        margin-block-start: 3.5rem;
     }
     .tabs-bg{
         width: 60%;
@@ -335,15 +339,21 @@
     .tab-name{
         font-size: 1.125rem;
     }
+    .extension-wrapper{
+        padding-inline: 5.5rem;
+    }
     .extension_card-wrapper{
         justify-content: center;
     }
     .tab-wrapper,.footer-content{
-        padding-inline: 5rem;
+        padding-inline: 5.5rem;
+    }
+    .attribution{
+        font-size: 0.6rem;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 75rem) {
     .intro_hero-bg{
         right: -15rem;
     }
@@ -353,9 +363,15 @@
     }    
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .intro{
-        min-width: 100%;
+        padding-inline-start: 5.5rem;
+    }
+    .intro-hero{
+        padding: 0;
+    }
+    .intro-info{
+        padding: 0;
     }
     .tabs-bg{
         left: -20rem;
