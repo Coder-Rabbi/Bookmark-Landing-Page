@@ -131,6 +131,8 @@ p{
     margin-block-start: 1.5rem;
     padding-block: 0.625rem;
     border-radius: 0.5rem;
+    width: 100%;
+    margin-block-start: 2rem;
 }
 .social_icons{
     justify-content: center;
